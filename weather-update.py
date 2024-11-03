@@ -35,6 +35,6 @@ def weather(city):
         print("Weather information could not be retrieved. Please try again later.")
 
 
-city = input("Enter the Name of Any City >> ")
+city = input("Enter the Name of Any City: ")
 city = city + " weather"
 weather(city)
